@@ -3,7 +3,7 @@ from telegram.ext import MessageHandler, Filters
 from settings import Token, hello_bot, obrashenie
 import random as rn
 
-def memas(bot, update):
+def memas(bot, update):git rm --cached
     bot.message.reply_photo('https://pbs.twimg.com/media/EysbMQbWgAAi5bG.jpg')
 
 def start_sms(bot, update):
